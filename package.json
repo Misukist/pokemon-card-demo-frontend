@@ -5,7 +5,7 @@
   "type": "module",
 "scripts": {
   "dev": "vite",
-  "build": "npm install --production=false && npm run build --prefix frontend",
+  "build": "npm install --production=false && npm run build",
   "preview": "vite preview",
   "start": "vite preview --port 4173 --host"
 },
