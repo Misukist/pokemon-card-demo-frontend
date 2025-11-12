@@ -5,6 +5,8 @@ Projekti on rakennettu modernilla **React + Vite** -kehityspaketilla ja tyylitet
 
 Backend-toteutus tehdään **Node.js + Express** -pohjaisesti, ja siinä käytetään **MongoDB:tä** käyttäjän omien korttien tallennukseen.
 
+Linkki Projektiin: https://pokecard-collection-app-frontend-demo-1.onrender.com/
+
 ---
 
 ## 🚀 Ominaisuudet
