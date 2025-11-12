@@ -9,7 +9,15 @@ Linkki Projektiin: https://pokecard-collection-app-frontend-demo-1.onrender.com/
 
 ---
 
-## 🚀 Ominaisuudet
+
+## 🖼️ Esikatselu
+
+![Sovelluksen esikatselu](./src/assets/PokecardFrontpage.jpg)
+
+---
+
+
+## 🚀 Tulevat ominaisuudet
 
 - 🔍 Haku Pokémon API:n avulla  
 - 🧑‍💻 Käyttäjän kirjautuminen ja rekisteröityminen  
@@ -19,7 +27,7 @@ Linkki Projektiin: https://pokecard-collection-app-frontend-demo-1.onrender.com/
 
 ---
 
-## 🛠️ Käytetyt teknologiat
+## 🛠️ Käytettävät teknologiat
 
 ### Frontend
 - ⚛️ [React](https://react.dev/) + [Vite](https://vitejs.dev/)
@@ -34,11 +42,3 @@ Linkki Projektiin: https://pokecard-collection-app-frontend-demo-1.onrender.com/
 - 🔐 JWT ja bcrypt käyttäjien autentikointiin
 - 🔍 Pokémon API ulkoisena lähteenä korttidatalle
 
----
-
-## 📦 Asennus ja käyttö
-
-### 1. Kloonaa projekti
-```bash
-git clone https://github.com/<käyttäjänimesi>/pokecards-frontend-demo.git
-cd pokecards-frontend-demo
