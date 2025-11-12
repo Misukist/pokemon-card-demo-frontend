@@ -1,16 +1,42 @@
-# React + Vite
+# 🎴 Pokécards Frontend Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tämä on frontend-demo Pokémon-korttisovelluksesta, jossa käyttäjä voi hakea kortteja **Pokémon API:n** avulla, kirjautua sisään ja lisätä kortteja omaan kokoelmaansa.  
+Projekti on rakennettu modernilla **React + Vite** -kehityspaketilla ja tyylitetty **Tailwind CSS:llä**.
 
-Currently, two official plugins are available:
+Backend-toteutus tehdään **Node.js + Express** -pohjaisesti, ja siinä käytetään **MongoDB:tä** käyttäjän omien korttien tallennukseen.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Ominaisuudet
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔍 Haku Pokémon API:n avulla  
+- 🧑‍💻 Käyttäjän kirjautuminen ja rekisteröityminen  
+- 💾 Korttien lisääminen omaan kokoelmaan  
+- 🗂️ Oman kokoelman selaus ja hallinta  
+- 🎨 Tyylikäs käyttöliittymä Tailwind CSS:llä  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Käytetyt teknologiat
+
+### Frontend
+- ⚛️ [React](https://react.dev/) + [Vite](https://vitejs.dev/)
+- 🎨 [Tailwind CSS](https://tailwindcss.com/)
+- 🔐 JWT-autentikointi (frontendin ja backendin välillä)
+- 🌐 Axios / Fetch API tiedonhakuun
+
+### Backend (erillinen projekti)
+- 🧩 [Node.js](https://nodejs.org/)
+- 🚏 [Express.js](https://expressjs.com/)
+- 🗄️ [MongoDB](https://www.mongodb.com/)
+- 🔐 JWT ja bcrypt käyttäjien autentikointiin
+- 🔍 Pokémon API ulkoisena lähteenä korttidatalle
+
+---
+
+## 📦 Asennus ja käyttö
+
+### 1. Kloonaa projekti
+```bash
+git clone https://github.com/<käyttäjänimesi>/pokecards-frontend-demo.git
+cd pokecards-frontend-demo
